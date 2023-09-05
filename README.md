@@ -3,11 +3,9 @@ Attention Enhanced Network with Semantic Inspector for Medical Report Generation
 
 This work can well assist doctors in medical imaging. For more information, please refer to the [paper](https://github.com/CH-YellowOrange/AENSI/tree/main/Paper).
 
-It's fairly simple and all program is in *Codes*. You can check these python files: **model_vit_selfatt_lbpf_.py** and **MultiHeadAttention_.py** to optimize or improve the performance of our model.
-
-
-
-<font color= deeppink>**颜色**</font>
+It's fairly simple and all program is in *Codes*. You can check these two python files to optimize or improve the performance of our model.
+> **model_vit_selfatt_lbpf_.py**
+> **MultiHeadAttention_.py**
 
 * If you want to train our model, you can use the following command:
   > python train_vit_selfatt_lbpf_.py
