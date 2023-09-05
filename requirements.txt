@@ -1,1 +1,19 @@
+# You can use 'pip' or 'conda' to install these packages.
 
+torch
+numpy
+tqdm
+opencv-python
+sklearn
+utils
+torchvision
+scikit-learn
+datasets
+nltk
+json
+imp
+
+# These packages may need to install manually from the official website.
+
+nlgeval
+mmap
