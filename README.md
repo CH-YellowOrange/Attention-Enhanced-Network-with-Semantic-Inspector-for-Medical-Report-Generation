@@ -6,7 +6,7 @@ This work can well assist doctors in medical imaging. For more information, plea
 It's fairly simple and all program is in 
 
 * If you want to train our model, you can use the following command:
-  > python train_vit_selfatt_lbpf_.py
+  > 'python train_vit_selfatt_lbpf_.py'
 
 * If you want to test it or evaluate it, you can use the following command:
   > python eval_vit_selfatt_lbpf_.py
