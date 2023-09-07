@@ -10,8 +10,7 @@ torchvision
 scikit-learn
 datasets
 nltk
-json
-imp
+h5py
 
 # These packages may need to install manually from the official website.
 
