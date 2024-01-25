@@ -498,7 +498,7 @@ def multi_head_attention_forward_(query,                          # type: Tensor
             penalty /= num_heads
             ##print("cos:", penalty)
             # penalty = penalty.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
-            heads_weight = heads_weight * (2.0-penalty)
+            heads_weight = heads_weight * (1.0-penalty)
         ##heads_weight = torch.cat(tuple(heads_weight_list), dim=0).reshape(-1, 1)
         ##########Code for Penalty##########
 
